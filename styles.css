@@ -5,6 +5,11 @@
     padding: 0%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-content {
     display: flex;
     align-items: center;
@@ -143,16 +148,24 @@ h1 + p {
 }
 
 .Gallery {
+    margin-top: -50px;
+    height: 85em;
+    background: black;
+    gap: 20px;
+} 
+
+.GalleryImage {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-  letter-spacing: 30px;
-    padding-top: 0%;
+    justify-content: center;
+    align-content: center;
+    margin-top: -50px;
+    width: 100%;
     height: 85em;
     background: black;
-    gap: 30px;
-} 
+    gap: 20px;
+}
 
 .Gallery-head {
     text-align: center;
