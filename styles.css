@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    background: black;
+    position: sticky;
+    top: 0%;
+}
+
+.nav-logo {
+    color: yellow;
+}
+
+.navs {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.Body-Content {
+    background: url(/images/young-fitness-man-studio_7502.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    width: 8em;
+}
+
+h1 + p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 40.5em;
+}
+
+.Body-Btn {
+    width: 100px;
+    height: 2rem;
+    color: black;
+    background: yellow;
+    margin-top: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Body-Btn:hover {
+    width: 130px;
+    height: 2.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Train-You {
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    background-color: black;
+    color: white;
+}
+
+.Train-Img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.Train-You-Content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 80px;
+    line-height: 25px;
+}
+
+.Package-head {
+    color: white;
+    background: black;
+    letter-spacing: 10px;
+    width: 100%;
+    text-align: center;
+    height: 4rem;
+}
+
+.Package-Content {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    gap: 30px;
+    padding: 40px;
+    line-height: 25px;
+    background: yellow;
+}
+
+.Subscribe-Btn {
+    width: 100px;
+    height: 2rem;
+    color: white;
+    background: black;
+    margin-top: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Subscribe-Btn:hover {
+    width: 130px;
+    height: 2.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Gallery {
+    margin-top: -50px;
+    height: 85em;
+    background: black;
+    gap: 20px;
+} 
+
+.GalleryImage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -50px;
+    width: 100%;
+    height: 85em;
+    background: black;
+    gap: 20px;
+}
+
+.Gallery-head {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 50px;
+}
+
+.Gallery-Img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.Reach {
+    background: url(/images/Capture.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Reach-Content {
+    padding: 40px;
+    text-align: center;
+    background-color: yellow;
+    width: 1000px;
+    height: 500px;
+    line-height: 25px;
+}
+
+.Reach-Head {
+    margin-bottom: 20px;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
+
+.Contact {
+    width: 100%;
+    height: 3em;
+    font-size: 40px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+#Contact-Link {
+    color: black;
+}
+
+#Contact-Link:hover {
+    font-size: 50px;
+}
+
+.attribution {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 10px;
+}
