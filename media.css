@@ -110,19 +110,22 @@ margin-top: -170px;
     height: 400px;
     object-fit: cover;
 }
-
 .Reach-text {
-    width: 20em;
+    width: 16.5em;
     text-align: center;
-    padding: 0 20px 20px 20px;
+    padding: none;
 }
 
 
 .Reach-Content {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
     text-align: center;
     background-color: yellow;
-    width: 400px;
+    width: 100%;
     height: 80em;
     line-height: 25px;
 }
@@ -130,13 +133,19 @@ margin-top: -170px;
 .Contact {
     display: flex;
     align-items: center;
+    background: yellow;
     justify-content: center;
     gap: 20px;
     font-size: 30px;
     height: 10em;
-    padding-top: 150px;
+    margin-top: 0px;
+    padding-top: 240px;
 }
 
+.Subscribe-Btn {
+    width: 100px;
+    height: 2rem;
+}
 
 .attribution {
     height: 3.5rem;
