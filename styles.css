@@ -23,6 +23,10 @@ a {
     top: 0%;
 }
 
+#icon {
+    display: none;
+}
+
 .nav-logo {
     color: yellow;
 }
