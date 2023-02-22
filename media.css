@@ -5,6 +5,7 @@
     }
     
     .nav-content {
+        width: 100%;
         display: block;
         position: fixed;
         top: 0%;
