@@ -1,7 +1,6 @@
 @media screen and (max-width: 414px) {
     body {
         overflow-x: hidden;
-        width: 100%;
     }
     
     .nav-content {
@@ -16,6 +15,7 @@
         flex-direction: column;
         text-align: center;
         padding-top: 40px;
+        width: 100%;
         height: 10rem;
         background-color: black;
         transition: all, 1s;
@@ -39,7 +39,7 @@
         display: inline;
    float: right;
    margin-top: -21.9em;
-   margin-right: 26px;
+   margin-right: 30px;
    cursor: pointer;
     }
     
@@ -164,21 +164,13 @@ margin-top: -170px;
     text-align: center;
     background-color: yellow;
     width: 100%;
-    margin-bottom: 80px;
-    height: 100em;
+    margin-top: 80px;
+    height: 1000em;
     line-height: 25px;
 }
 
 .Contact {
-    display: flex;
-    align-items: center;
-    background: yellow;
-    justify-content: center;
-    gap: 20px;
-    font-size: 30px;
-    height: 10em;
-    margin-top: 0px;
-    padding-top: 240px;
+display: none;
 }
 
 .Subscribe-Btn {
@@ -187,13 +179,7 @@ margin-top: -170px;
 }
 
 .attribution {
-    height: 3.5rem;
-}
-
-.attributionText {
-    text-align: center;
-    padding: 5px;
-    font-size: 13px;
+    display: none;
 }
 
 
