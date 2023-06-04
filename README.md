@@ -42,7 +42,6 @@ Contributions are welcome! If you'd like to contribute to the Fitness Club Web A
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
 - Email: [oluwatimilehinsamson.com](mailto:oluwatimilehinsamson.com)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
 
 We'd love to hear from you!
 
