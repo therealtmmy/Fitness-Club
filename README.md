@@ -1,5 +1,3 @@
-Certainly! Here's a README file for your fitness web app:
-
 # Fitness Club Web App
 
 Welcome to the Fitness Club Web App! This application is designed to help users track their fitness journey, set goals, and access a variety of workout routines and resources.
